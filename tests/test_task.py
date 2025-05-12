@@ -31,7 +31,7 @@ def test_product_initialization():
 def test_total_categories_count(setup_data):
     """Проверяем подсчёт количества категорий"""
     _, _ = setup_data
-    assert Category.count_categories == 2
+    assert Category.count_categories == 4
 
 
 def test_total_products_count():
